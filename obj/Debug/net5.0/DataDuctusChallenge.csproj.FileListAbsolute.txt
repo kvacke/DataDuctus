@@ -1,0 +1,16 @@
+C:\Users\jensb\source\repos\DataDuctusChallenge\bin\Debug\net5.0\DataDuctusChallenge.exe
+C:\Users\jensb\source\repos\DataDuctusChallenge\bin\Debug\net5.0\DataDuctusChallenge.deps.json
+C:\Users\jensb\source\repos\DataDuctusChallenge\bin\Debug\net5.0\DataDuctusChallenge.runtimeconfig.json
+C:\Users\jensb\source\repos\DataDuctusChallenge\bin\Debug\net5.0\DataDuctusChallenge.runtimeconfig.dev.json
+C:\Users\jensb\source\repos\DataDuctusChallenge\bin\Debug\net5.0\DataDuctusChallenge.dll
+C:\Users\jensb\source\repos\DataDuctusChallenge\bin\Debug\net5.0\ref\DataDuctusChallenge.dll
+C:\Users\jensb\source\repos\DataDuctusChallenge\bin\Debug\net5.0\DataDuctusChallenge.pdb
+C:\Users\jensb\source\repos\DataDuctusChallenge\obj\Debug\net5.0\DataDuctusChallenge.csprojAssemblyReference.cache
+C:\Users\jensb\source\repos\DataDuctusChallenge\obj\Debug\net5.0\DataDuctusChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jensb\source\repos\DataDuctusChallenge\obj\Debug\net5.0\DataDuctusChallenge.AssemblyInfoInputs.cache
+C:\Users\jensb\source\repos\DataDuctusChallenge\obj\Debug\net5.0\DataDuctusChallenge.AssemblyInfo.cs
+C:\Users\jensb\source\repos\DataDuctusChallenge\obj\Debug\net5.0\DataDuctusChallenge.csproj.CoreCompileInputs.cache
+C:\Users\jensb\source\repos\DataDuctusChallenge\obj\Debug\net5.0\DataDuctusChallenge.dll
+C:\Users\jensb\source\repos\DataDuctusChallenge\obj\Debug\net5.0\ref\DataDuctusChallenge.dll
+C:\Users\jensb\source\repos\DataDuctusChallenge\obj\Debug\net5.0\DataDuctusChallenge.pdb
+C:\Users\jensb\source\repos\DataDuctusChallenge\obj\Debug\net5.0\DataDuctusChallenge.genruntimeconfig.cache

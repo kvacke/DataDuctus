@@ -1,0 +1,33 @@
+﻿> Clock start until
+1) Thinking about rough problem structure ->
+I want to read two textfiles into separate collections, one for Scrabble words, one for Shakespeare-words.
+For each shakespeare-word I want to follow this order of action:
+	i. Check against the Scrabble-list if the word is exists and therefore is allowed.
+	ii. Score each character of the word but add 0 instead (using a blank) if tiles run out.
+	iii. Store the sum of each character and the word itself in a separate list of tuples -> (word,sum of character points);
+Finally sort the list by sum and descending, the words in the tuples in the first three indicies of the list is the solution.
+
+
+>11min 45s: Läsa in textfiler -> Google:"c# read words from text file to list""
+
+>18min 20s: Klar med filinläsning, två string-arrays med respektive ordlistor.
+>23 min, Upptäcker att det finns dubbletter av ord fast skiljer sig i higher/lower case.
+>24 min, Inser att det inte spelar någon roll om alla strings utvärderas efter ToLowerCase(), hellre det än att iterera över hela listan igen för att filtrera ut dubbletter.
+>38 min, ska skapa tupeln av ord och summa -> google:"c# declare tuple", hittade svaret i microsofts documentation;
+>48 min, ska göra en dictionary där varje entry representerar en bokstav med dess tillhörande antal, kollar upp syntax. Google: "c# dictionary" -> hittar svaret på dotnetperls
+>55 min, ångrar mig, ska fundera...
+
+>1h 4min, funderar över hur jag ska lösa bokstavsräkningen vid poänggivning
+>1h 10min, jag tänkte först att jag skapar ett objekt vid varje utvärdering som håller ett nytt set med brickor, men
+eftersom man blivit tilldelad arrayer med antalbrickor och dess värden men saknar mappning för bokstäverna kanske man kan göra det effektivare
+genom att använda ASCII-koden för en bokstav som ju alltid ökar med ett i alfabetisk ordning och på så viss mappa mot indexpositionerna i de tilldelade arrayerna.
+
+1h 14 min: googlar ASCII-tabell -> 97
+
+1h 29min: Kommer inte på något enklare sätt att hålla reda på antalet brickor än att skapa en ny samling vid varje utvärdering, återkommer till detta problem senare.
+1h 35min: Testar så att det fungerar.
+1h 44min: Vill i sorteringen referera till det ena värdet i tupeln -> Googlar "tuple get value c#", hittar svaret på stack overflow;
+2h 7min: Inser att scrabblelistan är väldigt lång, ska göra om dictionary och måste hantera dubbletter -> Googlar "c# todictionary duplicate keys"
+
+> 2h 21min Klar
+
